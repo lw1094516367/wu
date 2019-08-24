@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include, url
+
 
 urlpatterns = [
+    url(r'^wu/', include('xinjia.urls')),
     path('admin/', admin.site.urls),
 ]
