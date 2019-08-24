@@ -18,7 +18,7 @@ class User(models.Model):
     phone = models.CharField(db_column='Phone', max_length=255)  # Field name made lowercase.
     sex = models.IntegerField()
     authortriy = models.IntegerField(db_column='Authortriy')  # Field name made lowercase.
-    idcard = models.CharField(db_column='idCard', max_length=255)  # Field name made lowercase.
+    passWord = models.CharField(db_column='passWord', max_length=255)  # Field name made lowercase.
     createtime = models.CharField(db_column='createTime', max_length=255)  # Field name made lowercase.
 
     class Meta:
