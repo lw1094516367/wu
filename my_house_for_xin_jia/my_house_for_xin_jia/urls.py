@@ -19,6 +19,5 @@ from django.conf.urls import include, url
 
 
 urlpatterns = [
-    url(r'^wu/', include('xinjia.urls')),
     path('admin/', admin.site.urls),
 ]
